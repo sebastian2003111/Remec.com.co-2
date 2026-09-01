@@ -8,7 +8,7 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #dc3545;
+  --red: #f7071f;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
@@ -228,6 +228,10 @@ h4 {
   width: 100%;
 }
 
+/*====================================================================
+   3.1 Botón CTA en el header — GLOBAL: Todas las páginas
+ ==================================================================*/
+
 .rmc2-cta-btn {
   font-size: 13.5px;
   font-weight: 700;
@@ -250,7 +254,8 @@ h4 {
 }
 .rmc2-cta-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px -8px rgba(9, 135, 90, 0.5);
+  box-shadow: 0 10px 20px -8px rgba(2, 250, 163, 0.5);
+  color: var(--dark);
 }
 
 /* ===================================================================
@@ -1220,7 +1225,7 @@ body.rmc2-locked {
    Marco contenedor del logo de marca propia
    =================================================================== */
 .rmc2-logo-frame {
-  max-width: 320px;
+  
   padding: 18px;
   border: 1px solid var(--rmc2-border);
   background: var(--light);
